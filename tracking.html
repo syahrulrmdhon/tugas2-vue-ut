@@ -116,7 +116,9 @@
                             <span class="muted">Nomor DO</span>
                             <h3>{{ nomorCariAktif }}</h3>
                         </div>
-                        <span class="status-badge aman">🚚 {{ hasilCari.status }}</span>
+                        <span class="status-badge" :class="statusTrackingClass(hasilCari.status)">
+                            {{ statusTrackingIcon(hasilCari.status) }} {{ hasilCari.status }}
+                        </span>
                     </div>
 
                     <div class="info-grid">

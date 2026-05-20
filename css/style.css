@@ -633,6 +633,11 @@ select:focus {
     color: #991b1b;
 }
 
+.status-badge.info {
+    background: #dbeafe;
+    color: #1d4ed8;
+}
+
 .action-buttons {
     display: flex;
     gap: 6px;

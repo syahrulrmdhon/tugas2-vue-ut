@@ -73,6 +73,46 @@ new Vue({
             }).format(angka || 0);
         },
 
+        statusTrackingClass: function (status) {
+            if (status === "Selesai") {
+                return "aman";
+            }
+
+            if (status === "Dalam Perjalanan") {
+                return "info";
+            }
+
+            if (status === "Diproses") {
+                return "menipis";
+            }
+
+            if (status === "Tertunda") {
+                return "kosong";
+            }
+
+            return "info";
+        },
+
+        statusTrackingIcon: function (status) {
+            if (status === "Selesai") {
+                return "🟢";
+            }
+
+            if (status === "Dalam Perjalanan") {
+                return "🚚";
+            }
+
+            if (status === "Diproses") {
+                return "🟡";
+            }
+
+            if (status === "Tertunda") {
+                return "🔴";
+            }
+
+            return "📦";
+        },
+
         validasiDO: function () {
             this.errorForm = [];
 

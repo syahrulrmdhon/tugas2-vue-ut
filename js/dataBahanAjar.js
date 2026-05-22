@@ -85,48 +85,48 @@ var sumberData = {
                 { waktu: "2025-08-26 08:44:01", keterangan: "Diteruskan ke Kantor Tujuan" }
             ]
         },
-        // "DO2025-0002": {
-        //     nim: "987654321",
-        //     nama: "Agus Pranoto",
-        //     status: "Diproses",
-        //     ekspedisi: "JNE Express",
-        //     tanggalKirim: "2025-08-26",
-        //     paket: "PAKET-UT-002",
-        //     total: 140000,
-        //     perjalanan: [
-        //         { waktu: "2025-08-26 09:15:00", keterangan: "Delivery Order dibuat oleh sistem SITTA UT" },
-        //         { waktu: "2025-08-26 10:05:00", keterangan: "Paket sedang disiapkan di gudang bahan ajar" }
-        //     ]
-        // },
+        "DO2025-0002": {
+            nim: "987654321",
+            nama: "Agus Pranoto",
+            status: "Diproses",
+            ekspedisi: "JNE Express",
+            tanggalKirim: "2025-08-26",
+            paket: "PAKET-UT-002",
+            total: 140000,
+            perjalanan: [
+                { waktu: "2025-08-26 09:15:00", keterangan: "Delivery Order dibuat oleh sistem SITTA UT" },
+                { waktu: "2025-08-26 10:05:00", keterangan: "Paket sedang disiapkan di gudang bahan ajar" }
+            ]
+        },
 
-        // "DO2025-0003": {
-        //     nim: "112233445",
-        //     nama: "Siti Marlina",
-        //     status: "Selesai",
-        //     ekspedisi: "JNE Regular",
-        //     tanggalKirim: "2025-08-20",
-        //     paket: "PAKET-UT-001",
-        //     total: 120000,
-        //     perjalanan: [
-        //         { waktu: "2025-08-20 08:30:00", keterangan: "Penerimaan di Loket: Universitas Terbuka" },
-        //         { waktu: "2025-08-20 13:20:00", keterangan: "Tiba di Hub: Jakarta Selatan" },
-        //         { waktu: "2025-08-21 09:45:00", keterangan: "Paket diteruskan ke kantor tujuan" },
-        //         { waktu: "2025-08-21 16:10:00", keterangan: "Paket telah diterima oleh Siti Marlina" }
-        //     ]
-        // },
+        "DO2025-0003": {
+            nim: "112233445",
+            nama: "Siti Marlina",
+            status: "Selesai",
+            ekspedisi: "JNE Regular",
+            tanggalKirim: "2025-08-20",
+            paket: "PAKET-UT-001",
+            total: 120000,
+            perjalanan: [
+                { waktu: "2025-08-20 08:30:00", keterangan: "Penerimaan di Loket: Universitas Terbuka" },
+                { waktu: "2025-08-20 13:20:00", keterangan: "Tiba di Hub: Jakarta Selatan" },
+                { waktu: "2025-08-21 09:45:00", keterangan: "Paket diteruskan ke kantor tujuan" },
+                { waktu: "2025-08-21 16:10:00", keterangan: "Paket telah diterima oleh Siti Marlina" }
+            ]
+        },
 
-        // "DO2025-0004": {
-        //     nim: "556677889",
-        //     nama: "Doni Setiawan",
-        //     status: "Tertunda",
-        //     ekspedisi: "JNE Express",
-        //     tanggalKirim: "2025-08-27",
-        //     paket: "PAKET-UT-002",
-        //     total: 140000,
-        //     perjalanan: [
-        //         { waktu: "2025-08-27 11:00:00", keterangan: "Delivery Order dibuat oleh sistem SITTA UT" },
-        //         { waktu: "2025-08-27 15:30:00", keterangan: "Paket tertunda karena menunggu konfirmasi alamat penerima" }
-        //     ]
-        // }
+        "DO2025-0004": {
+            nim: "556677889",
+            nama: "Doni Setiawan",
+            status: "Tertunda",
+            ekspedisi: "JNE Express",
+            tanggalKirim: "2025-08-27",
+            paket: "PAKET-UT-002",
+            total: 140000,
+            perjalanan: [
+                { waktu: "2025-08-27 11:00:00", keterangan: "Delivery Order dibuat oleh sistem SITTA UT" },
+                { waktu: "2025-08-27 15:30:00", keterangan: "Paket tertunda karena menunggu konfirmasi alamat penerima" }
+            ]
+        }
     }
 };
